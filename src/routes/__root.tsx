@@ -83,10 +83,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "AI-powered lead generation for freelancers, web developers, SEO and marketing agencies. Discover local businesses without websites, low ratings and high opportunity.",
       },
-      { property: "og:title", content: "LocalLead AI — AI Lead Generation for Local Businesses" },
-      { property: "og:description", content: "Find local businesses that need websites, SEO, ads and automation — scored by AI." },
+      { property: "og:title", content: "LocalLead AI — Find local businesses that need your services" },
+      { property: "og:description", content: "LocalLead AI is an AI-powered SaaS platform for lead generation, helping service providers find local businesses." },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
+      { name: "twitter:title", content: "LocalLead AI — Find local businesses that need your services" },
+      { name: "description", content: "LocalLead AI is an AI-powered SaaS platform for lead generation, helping service providers find local businesses." },
+      { name: "twitter:description", content: "LocalLead AI is an AI-powered SaaS platform for lead generation, helping service providers find local businesses." },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e99cf21e-6d7c-48f8-b279-32c1771e8248/id-preview-252e39eb--789c5cce-9fdd-403c-b745-72345c43d8ef.lovable.app-1782066864707.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e99cf21e-6d7c-48f8-b279-32c1771e8248/id-preview-252e39eb--789c5cce-9fdd-403c-b745-72345c43d8ef.lovable.app-1782066864707.png" },
     ],
     links: [
       { rel: "preconnect", href: "https://fonts.googleapis.com" },
